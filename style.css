@@ -1,0 +1,51 @@
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+ }
+
+ /* Stlying Variabes for Light Theme */
+ .theme-light {
+   --color-primary: #0060df;
+   --color-secondary: #fbfbfe;
+   --color-accent: #fd6f53;
+   --font-color-one: #000000;
+   --font-color-two: #000000;
+ }
+
+ /* Styling Variables for Dark Theme */
+ .theme-dark {
+   --color-primary: #17ed90;
+   --color-secondary: #243133;
+   --color-accent: #12cdea;
+   --font-color-one: #ffffff;
+   --font-color-two: #ffffff;
+ }
+
+ /* More Custom Theme classes stlying can be added here */
+
+ .container {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   background-color: var(--color-secondary);
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .container h2 {
+   color: var(--font-color-one);
+ }
+
+ .container button {
+   position: absolute;
+   left: 10px;
+   top: 20px;
+   color: var(--font-color-one);
+   background-color: var(--color-primary);
+   padding: 10px 20px;
+   border: 0;
+   border-radius: 5px;
+ }
