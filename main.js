@@ -1,4 +1,5 @@
 // define variables to hold the classname for the 2 themes
+// define variable to hold reference to the switch button
 let theme_dark = 'theme-dark';
 let theme_light = 'theme-light';
 let theme_switch = document.getElementById("theme-switch");
